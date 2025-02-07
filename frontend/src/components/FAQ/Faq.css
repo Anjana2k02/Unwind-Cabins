@@ -1,0 +1,104 @@
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .faq-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1a2e22;
+  }
+  
+  .faq-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 8px;
+    
+  }
+  
+  .faq-content {
+    flex: 1;
+  }
+  
+  .faq-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1a2e22;
+  }
+  
+  .faq-list {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0;
+  }
+  
+  .faq-item {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 3px;
+  }
+  
+  .faq-button {
+    background: #F5B963;
+    color: #1a2e22;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%; 
+    max-width: 300px; 
+    text-align: left;
+    cursor: pointer;
+  
+    
+  }
+
+  .faq-footer-text p {
+    margin-left: 10rem;
+  }
+  
+  .faq-button:hover {
+    background: #e2a258;
+  }
+  
+  .faq-chevron {
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-footer {
+    margin-top: 30px;
+  }
+  
+  .faq-footer-heading {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1a2e22;
+  }
+  
+  .faq-footer-text {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .faq-link {
+    color: #000000;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  
+  .faq-link:hover {
+    text-decoration: underline;
+  }
+  

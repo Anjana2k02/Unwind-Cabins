@@ -1,0 +1,56 @@
+.esc {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.Escape {
+    width: 100vw;
+    height: 100vh;
+    padding: 3rem;
+    color: white;
+    background: linear-gradient(90deg, rgba(1,0,17,1) 0%, rgba(0,0,0,1) 41%, rgba(0,0,0,0) 82%), 
+                url("../../assets/image8.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Heading & Paragraph */
+.Escape h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-left: 15rem;
+}
+
+.Escape p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+    margin-left: 15rem;
+}
+
+/* Button Styles */
+.Escape button {
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: lightblue;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: left;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-left: 15rem;
+}
+
+.Escape button:hover {
+    background-color: #87ceeb; /* Slightly darker shade of light blue */
+    transform: scale(1.05);
+}

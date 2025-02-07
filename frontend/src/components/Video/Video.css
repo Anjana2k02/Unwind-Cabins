@@ -1,0 +1,39 @@
+.wrapper {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 20px; 
+}
+
+.container {
+    margin-left: 26px;
+    flex: 1; 
+    max-width: 50%; 
+}
+
+.container h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    margin-left: 19rem;
+    color: black;
+    
+}
+
+.container a{
+    margin-left: 19rem;
+}
+
+.container u {
+    text-decoration: underline;
+    text-decoration-color: rgb(237, 190, 71);
+    text-underline-offset: 10px;
+
+}
+.video {
+    flex: 1; 
+    max-width: 50%; 
+}
+

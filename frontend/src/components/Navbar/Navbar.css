@@ -1,0 +1,52 @@
+/* Base styles for the navbar */
+.navbar {
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.4s ease; 
+}
+
+.navbar .logo {
+    width: 200px;
+    transition: width 0.4s ease;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: #000000;
+    font-size: 14px;
+    transition: gap 0.4s ease, 
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar button {
+    background: transparent;
+    color: #000000;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 6px 8px;
+    border-radius: 90px;
+    cursor: pointer;
+    
+    
+}
+
+.navbar button:hover {
+    background: rgb(244, 244, 244);
+}
+
+.navbar .active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+
+.navbar li {
+    cursor: pointer;
+}
+

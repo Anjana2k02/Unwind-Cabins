@@ -1,0 +1,38 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(1,0,17,0.35066526610644255) 0%, rgba(20,24,32,0.3534663865546218) 100%);
+    background: url("../../assets/experience.jpg") center/cover no-repeat;
+    
+    display: flex;
+    align-items: center;
+    padding-left: 65rem;
+    color: white;
+}
+
+.experience-content {
+    max-width: 35rem;
+}
+
+.experience-content h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.experience-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.stars {
+    color: #4CAF50;
+    font-size: 1.2rem;
+}

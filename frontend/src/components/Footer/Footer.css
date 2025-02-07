@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+
+.footer-bg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #040a09;
+    padding: 20px 0;
+}
+
+.footer {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-family: "Outfit", serif;
+}
+
+.footer .row {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.footer .row .col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer .row .col p {
+    font-weight: 500;
+    color: #a7f3d0;
+    letter-spacing: 1px;
+}
+
+.footer .row .col ul li {
+    list-style: none;
+    font-weight: 200;
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+
+/* third row */
+
+.footer  .row:nth-child(3) {
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(240, 248, 255, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer  .row:nth-child(3) .news {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer  .row:nth-child(3) .news input {
+    padding: 15px 10px;
+    height: auto;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    min-width: 300px;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    color: #065f46;
+    margin: 0 !important;
+    background-color: aliceblue !important;
+}
+
+.footer  .row:nth-child(3) .news button {
+    padding: 15px 10px;
+    border: none;
+    width: fit-content;
+    min-width: 150px;
+    border-radius: 5px;
+    color: #27272a;
+    background-color: #fbbf24;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.content p:first-child {
+    font-weight: 500;
+}
+
+.content p:nth-child(2) {
+    font-size: 0.75rem;
+}
+
+/* last row */
+
+.footer  .row:last-child {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer  .row:last-child .copy {
+    font-weight: 300;
+    letter-spacing: 1px;
+    opacity: 0.35;
+}
+
+.footer .row:last-child .social-bar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    opacity: 0.35;
+}
+
+.footer .row:last-child .social-bar .social-icon {
+    width: fit-content;
+}
+
+.footer .logo {
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.footer .logo p {
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.footer .logo p span {
+    font-weight: 900;
+    color: #a7f3d0;
+}
